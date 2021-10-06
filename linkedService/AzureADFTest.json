@@ -4,7 +4,15 @@
 		"annotations": [],
 		"type": "AzureBlobFS",
 		"typeProperties": {
-			"url": "https://markstoragedev.dfs.core.windows.net"
+			"url": "https://markstoragedev.dfs.core.windows.net",
+			"accountKey": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ADF_Linked_Service",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "ADFSecret"
+			}
 		}
 	}
 }
