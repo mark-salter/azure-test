@@ -1,0 +1,17 @@
+{
+	"name": "AzureBlobStorage1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ADF_Vault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "ADF-markdev2"
+			}
+		}
+	}
+}
