@@ -1,0 +1,10 @@
+{
+	"name": "AzureADFTest",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://markstoragedev.dfs.core.windows.net"
+		}
+	}
+}
