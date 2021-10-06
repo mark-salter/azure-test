@@ -1,0 +1,9 @@
+{
+	"name": "ADT-Test",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "67e162f6-3e16-4530-ac67-6fbcf59a73bb",
+		"tenantId": "513294a0-3e20-41b2-a970-6d30bf1546fa"
+	}
+}
